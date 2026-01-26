@@ -1,0 +1,14 @@
+name: Tinify Images
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  tinify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: tinify/tinify-action@v1
+        with:
+          api_key: ${{ secrets.TINYPNG_KEY }}
