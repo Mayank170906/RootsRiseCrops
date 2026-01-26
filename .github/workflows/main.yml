@@ -2,7 +2,7 @@ name: Tinify Images
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
 
 jobs:
   tinify:
