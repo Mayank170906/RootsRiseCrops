@@ -1,3 +1,42 @@
 @import "tailwindcss";
 @plugin "daisyui";
 @source "./rootsrisecrops/**/*.{html,js}";
+@theme {
+  /* 1. Define the Animation Utility Classes */
+  --animate-gradient-xy: gradient-xy 15s ease infinite;
+  --animate-float-up: float-up 10s linear infinite;
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
+  --animate-bounce-slight: bounce-slight 3s ease-in-out infinite;
+
+  /* 2. Define the Keyframes inside the theme block */
+  @keyframes gradient-xy {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  @keyframes float-up {
+    0% { transform: translateY(100vh) scale(0.8); opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { transform: translateY(-20vh) scale(1.2); opacity: 0; }
+  }
+
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes bounce-slight {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+}
+
+/* OPTIONAL: Custom Utility for the background size
+   Tailwind v4 usually handles arbitrary values like bg-[length:400%_400%]
+   automatically in HTML, so you might not strictly need this,
+   but it's here if you want a clean class name.
+*/
+@utility bg-size-400 {
+  background-size: 400% 400%;
+}
