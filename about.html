@@ -97,32 +97,53 @@
 <main>
 
   <!-- Hero -->
-<section class="py-24 bg-base-200">
+<section class="py-24 relative overflow-hidden">
+
+  <!-- India palette background continuation -->
+  <div class="absolute inset-0 -z-10
+      bg-[linear-gradient(120deg,#ff9933,#ffffff,#138808,#ff9933)]
+      dark:bg-[linear-gradient(120deg,#2a1405,#0b0f0c,#061a0a,#2a1405)]
+      bg-[length:400%_400%] animate-gradient-xy opacity-40 dark:opacity-60">
+  </div>
+
   <div class="max-w-7xl mx-auto px-6">
 
-    <div class="bg-base-100 shadow-xl rounded-2xl overflow-hidden lg:flex">
+    <div class="bg-white/70 dark:bg-white/5 backdrop-blur-xl
+                border border-white/40 dark:border-white/10
+                shadow-xl rounded-2xl overflow-hidden lg:flex">
 
       <!-- Text -->
       <div class="p-10 lg:w-1/2 flex items-center">
         <div>
-          <h1 class="text-4xl font-bold text-blue-800 mb-4">
+
+          <h1 class="text-4xl font-bold mb-4
+                     text-slate-800 dark:text-slate-200">
             About RootsRise Crops
           </h1>
 
-          <p class="text-white text-lg leading-relaxed">
-            Rooted in quality and care, we offer finely sourced mushrooms,
-            flax seeds, and makhana crafted to preserve natural nutrition
-            and taste. Simple ingredients. Elevated standards.
-          </p>
+<p class="text-lg leading-relaxed font-medium text-slate-800 dark:text-slate-300">
+  <span class="font-semibold text-orange-600 dark:text-orange-400">Rooted in quality and care</span>,
+  we offer finely sourced
+  <span class="font-semibold text-blue-700 dark:text-blue-400">mushrooms</span>,
+  <span class="font-semibold text-slate-700 dark:text-slate-200">flax seeds</span>,
+  and
+  <span class="font-semibold text-green-700 dark:text-green-400">makhana</span>
+  crafted to preserve natural nutrition and taste.
+  <span class="font-semibold text-orange-600 dark:text-orange-400">Simple ingredients.</span>
+  <span class="font-semibold text-green-700 dark:text-green-400">Elevated standards.</span>
+</p>
+
+
         </div>
       </div>
 
       <!-- Image -->
-      <div class="lg:w-1/2 flex justify-center items-center bg-base-100 p-6">
+      <div class="lg:w-1/2 flex justify-center items-center p-6">
         <img
           src="./aboutus.jpg"
           alt="RootsRise Crops"
-          class="w-full max-w-md h-auto rounded-xl object-cover"
+          class="w-full max-w-md h-auto rounded-xl object-cover
+                 shadow-lg border border-white/40 dark:border-white/10"
           loading="lazy"
         />
       </div>
@@ -134,87 +155,166 @@
 
 
   <!-- Company Info -->
-  <section class="py-16">
-    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
+<section class="py-16 relative overflow-hidden">
 
-      <div>
-        <h2 class="text-3xl font-bold mb-4 text-blue-800">🏢 Who We Are</h2>
-        <p class="text-gray-490 mb-4">
-          🌱 RootsRise Crops operates with a mission to connect farmers with global markets by supplying
-            high-quality agricultural products. We specialize in foxnuts, flax seeds and mushrooms.
-        </p>
-        <p class="text-gray-550">
-         🤝 Our team works closely with farmers, processors and logistics partners to ensure consistent quality,
-timely delivery and competitive pricing.
+  <!-- India palette background continuation -->
+  <div class="absolute inset-0 -z-10
+      bg-[linear-gradient(120deg,#ff9933,#ffffff,#138808,#ff9933)]
+      dark:bg-[linear-gradient(120deg,#2a1405,#0b0f0c,#061a0a,#2a1405)]
+      bg-[length:400%_400%] animate-gradient-xy opacity-30 dark:opacity-60">
+  </div>
 
-        </p>
-      </div>
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
 
-      <div>
-        <h2 class="text-3xl font-bold mb-4 text-blue-800"> 🚜 What We Do</h2>
-        <p class="text-gray-550 mb-4">
-         📦 We source, process and supply agricultural products for wholesale buyers, food manufacturers,
-distributors and exporters.
+    <!-- Who We Are -->
+    <div class="bg-white/70 dark:bg-white/5 backdrop-blur-md
+                border border-white/40 dark:border-white/10
+                rounded-2xl p-8 shadow-lg">
 
-        </p>
-        <p class="text-gray-550">
-          ⭐ With a strong focus on quality control and customer satisfaction, RootsRise Crops aims to build
-long-term business relationships.
-
-        </p>
-      </div>
-
-    </div>
-  </section>
-  <!-- Values -->
-  <section class="py-16 bg-base-200">
-    <div class="max-w-6xl mx-auto px-6">
-
-      <h2 class="text-3xl font-bold text-center mb-10 text-blue-800">
-        Our Core Values
+      <h2 class="text-3xl font-bold mb-4 text-slate-800 dark:text-slate-200">
+        🏢 Who We Are
       </h2>
 
-      <div class="grid md:grid-cols-3 gap-8 text-center">
-
-        <div class="p-6 bg-base-100 rounded-xl shadow">
-          <h3 class="text-xl font-semibold mb-2 text-amber-500">Quality</h3>
-          <p class="text-gray-550">
-            We ensure strict quality standards across all our products.
-          </p>
-        </div>
-
-        <div class="p-6 bg-base-100 rounded-xl shadow">
-          <h3 class="text-xl font-semibold mb-2 text-amber-500">Trust</h3>
-          <p class="text-gray-550">
-            We build long-term partnerships based on transparency and reliability.
-          </p>
-        </div>
-
-        <div class="p-6 bg-base-100 rounded-xl shadow">
-          <h3 class="text-xl font-semibold mb-2 text-amber-500">Growth</h3>
-          <p class="text-gray-550">
-            We aim to grow sustainably with farmers and buyers.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-  <!-- CTA -->
-  <section class="py-16 text-center">
-    <div class="max-w-2xl mx-auto px-6">
-      <h2 class="text-3xl font-bold mb-4 text-blue-800">
-        Partner With RootsRise Crops
-      </h2>
-      <p class="text-gray-550 mb-6">
-        Looking for a reliable agricultural supplier? Get in touch with us today.
+      <p class="text-slate-700 dark:text-slate-300 mb-4 leading-relaxed">
+        🌱 <span class="font-semibold text-orange-600 dark:text-orange-400">RootsRise Crops</span>
+        operates with a mission to connect farmers with global markets by supplying
+        high-quality agricultural products. We specialize in
+        <span class="font-semibold text-blue-700 dark:text-blue-400">foxnuts</span>,
+        <span class="font-semibold text-slate-800 dark:text-slate-200">flax seeds</span>
+        and <span class="font-semibold text-green-700 dark:text-green-400">mushrooms</span>.
       </p>
-      <a href="https://wa.me/917635096250" target="_blank" class="btn btn-primary btn-lg">
-        Contact on WhatsApp
-      </a>
+
+      <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+        🤝 Our team works closely with farmers, processors and logistics partners to ensure
+        consistent quality, timely delivery and competitive pricing.
+      </p>
+
     </div>
-  </section>
+
+    <!-- What We Do -->
+    <div class="bg-white/70 dark:bg-white/5 backdrop-blur-md
+                border border-white/40 dark:border-white/10
+                rounded-2xl p-8 shadow-lg">
+
+      <h2 class="text-3xl font-bold mb-4 text-slate-800 dark:text-slate-200">
+        🚜 What We Do
+      </h2>
+
+      <p class="text-slate-700 dark:text-slate-300 mb-4 leading-relaxed">
+        📦 We source, process and supply agricultural products for wholesale buyers,
+        food manufacturers, distributors and exporters.
+      </p>
+
+      <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+        ⭐ With a strong focus on quality control and customer satisfaction,
+        <span class="font-semibold text-green-700 dark:text-green-400">RootsRise Crops</span>
+        aims to build long-term business relationships.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- Values -->
+<section class="py-16 relative overflow-hidden">
+
+  <!-- India palette background continuation -->
+  <div class="absolute inset-0 -z-10
+      bg-[linear-gradient(120deg,#ff9933,#ffffff,#138808,#ff9933)]
+      dark:bg-[linear-gradient(120deg,#2a1405,#0b0f0c,#061a0a,#2a1405)]
+      bg-[length:400%_400%] animate-gradient-xy opacity-30 dark:opacity-60">
+  </div>
+
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-3xl font-bold text-center mb-10
+               text-slate-800 dark:text-slate-200">
+      Our Core Values
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+
+      <!-- Quality -->
+      <div class="p-6 bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10
+                  rounded-xl shadow-lg transition duration-300
+                  hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-xl font-semibold mb-2 text-orange-600 dark:text-orange-400">
+          Quality
+        </h3>
+        <p class="text-slate-700 dark:text-slate-300">
+          We ensure strict quality standards across all our products.
+        </p>
+      </div>
+
+      <!-- Trust -->
+      <div class="p-6 bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10
+                  rounded-xl shadow-lg transition duration-300
+                  hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-xl font-semibold mb-2 text-blue-700 dark:text-blue-400">
+          Trust
+        </h3>
+        <p class="text-slate-700 dark:text-slate-300">
+          We build long-term partnerships based on transparency and reliability.
+        </p>
+      </div>
+
+      <!-- Growth -->
+      <div class="p-6 bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10
+                  rounded-xl shadow-lg transition duration-300
+                  hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-xl font-semibold mb-2 text-green-700 dark:text-green-400">
+          Growth
+        </h3>
+        <p class="text-slate-700 dark:text-slate-300">
+          We aim to grow sustainably with farmers and buyers.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- CTA -->
+<section class="py-16 text-center relative overflow-hidden">
+
+  <!-- India palette background continuation -->
+  <div class="absolute inset-0 -z-10
+      bg-[linear-gradient(120deg,#ff9933,#ffffff,#138808,#ff9933)]
+      dark:bg-[linear-gradient(120deg,#2a1405,#0b0f0c,#061a0a,#2a1405)]
+      bg-[length:400%_400%] animate-gradient-xy opacity-30 dark:opacity-60">
+  </div>
+
+  <div class="max-w-2xl mx-auto px-6
+              bg-white/70 dark:bg-white/5 backdrop-blur-md
+              border border-white/40 dark:border-white/10
+              rounded-2xl shadow-xl p-10">
+
+    <h2 class="text-3xl font-bold mb-4 text-slate-800 dark:text-slate-200">
+      Partner With RootsRise Crops
+    </h2>
+
+    <p class="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
+      Looking for a reliable agricultural supplier?
+      Get in touch with us today.
+    </p>
+
+    <a href="https://wa.me/917635096250" target="_blank"
+       class="btn btn-primary btn-lg gap-2 shadow-lg shadow-primary/40
+              hover:scale-105 transition-transform duration-300 group border-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-hover:rotate-12 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654z"/>
+      </svg>
+      Contact on WhatsApp
+    </a>
+
+  </div>
+</section>
+
 </main>
   <!-- Footer -->
 <footer class="bg-neutral-900 text-gray-300">
