@@ -92,203 +92,247 @@
 
 <main>
   <!-- Hero -->
-  <section class="hero min-h-[80vh] relative overflow-hidden bg-base-200 dark:bg-base-300 font-sans transition-colors duration-500">
+<section class="hero min-h-[80vh] relative overflow-hidden font-sans">
 
-  <div class="absolute inset-0 z-0
-              bg-gradient-to-br from-green-50 via-blue-50 to-amber-50
-              dark:from-green-950 dark:via-slate-900 dark:to-amber-950
-              bg-[length:400%_400%] animate-gradient-xy transition-colors duration-500">
+  <!-- India palette animated background -->
+  <div class="absolute inset-0 -z-10
+      bg-[linear-gradient(120deg,#ff9933,#ffffff,#138808,#ff9933)]
+      dark:bg-[linear-gradient(120deg,#2a1405,#0b0f0c,#061a0a,#2a1405)]
+      bg-[length:400%_400%] animate-gradient-xy transition-colors duration-500">
   </div>
 
+  <!-- floating lights -->
   <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-    <div class="absolute bottom-[-20px] left-[10%] w-20 h-20 bg-green-400/20 dark:bg-green-500/10 rounded-full blur-xl animate-float-up delay-0"></div>
-    <div class="absolute bottom-[-50px] left-[40%] w-32 h-32 bg-amber-400/20 dark:bg-amber-500/10 rounded-full blur-xl animate-float-up delay-[2s]"></div>
-    <div class="absolute bottom-[-30px] left-[70%] w-24 h-24 bg-blue-400/20 dark:bg-blue-500/10 rounded-full blur-xl animate-float-up delay-[4s]"></div>
+    <div class="absolute bottom-[-20px] left-[10%] w-20 h-20 bg-orange-400/25 dark:bg-orange-500/10 rounded-full blur-xl animate-float-up"></div>
+    <div class="absolute bottom-[-50px] left-[40%] w-32 h-32 bg-white/40 dark:bg-white/5 rounded-full blur-xl animate-float-up delay-[2s]"></div>
+    <div class="absolute bottom-[-30px] left-[70%] w-24 h-24 bg-green-500/25 dark:bg-green-500/10 rounded-full blur-xl animate-float-up delay-[4s]"></div>
   </div>
 
   <div class="hero-content text-center z-10 relative">
 
     <div class="max-w-2xl p-8 rounded-2xl shadow-xl animate-fade-in-up
-                bg-white/30 backdrop-blur-sm border border-white/40
-                dark:bg-black/30 dark:border-white/10">
+                bg-white/65 dark:bg-white/5 backdrop-blur-xl
+                border border-white/60 dark:border-white/10">
 
-      <div class="badge badge-accent badge-outline mb-4 font-semibold tracking-wider animate-bounce-slight">
+      <div class="badge badge-outline mb-4 font-semibold tracking-wider text-orange-600 border-orange-500/50 dark:text-orange-300 dark:border-orange-300/40 animate-bounce-slight">
         WHOLESALE & EXPORT
       </div>
 
       <h1 class="text-5xl font-extrabold mb-4 text-transparent bg-clip-text drop-shadow-sm
-                 bg-gradient-to-r from-green-800 to-blue-800
-                 dark:from-green-400 dark:to-blue-400">
+                 bg-gradient-to-r from-orange-600 via-slate-800 to-green-700
+                 dark:from-orange-300 dark:via-white dark:to-green-400">
         Premium Agricultural Products
       </h1>
 
-      <p class="text-gray-700 dark:text-gray-300 text-lg mb-8 font-medium leading-relaxed">
+      <p class="text-slate-700 dark:text-slate-300 text-lg mb-8 font-medium leading-relaxed">
         RootsRise Crops supplies high-quality
-        <span class="font-bold text-green-800 ">foxnuts</span>,
-        <span class="font-bold text-amber-700 ">flax seeds</span>, and
-        <span class="font-bold  text-blue-800 ">mushrooms</span>
+        <span class="font-bold text-orange-600 dark:text-orange-300">foxnuts</span>,
+        <span class="font-bold text-slate-800 dark:text-white">flax seeds</span>, and
+        <span class="font-bold text-green-700 dark:text-green-400">mushrooms</span>
         for bulk wholesale and global export.
       </p>
 
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="btn btn-primary btn-lg gap-2 hover:scale-105 transition-transform duration-300 shadow-lg shadow-primary/40 group border-none">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 group-hover:rotate-12 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        <a href="https://wa.me/91XXXXXXXXXX" target="_blank"
+           class="btn btn-primary btn-lg gap-2 hover:scale-105 transition-transform duration-300 shadow-lg shadow-primary/40 group border-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 group-hover:rotate-12 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654z"/>
+          </svg>
           Chat on WhatsApp
         </a>
       </div>
+
     </div>
   </div>
 </section>
 
+
   <!-- Products -->
-  <section class="py-16">
-    <div class="max-w-7xl mx-auto px-6">
+<section class="py-16 relative overflow-hidden">
 
-      <h2 class="text-3xl font-bold text-center mb-10 ">
-        Our Products
-      </h2>
+  <!-- India palette background continuation -->
+  <div class="absolute inset-0 -z-10
+      bg-[linear-gradient(120deg,#ff9933,#ffffff,#138808,#ff9933)]
+      dark:bg-[linear-gradient(120deg,#2a1405,#0b0f0c,#061a0a,#2a1405)]
+      bg-[length:400%_400%] animate-gradient-xy opacity-40 dark:opacity-60">
+  </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+  <div class="max-w-7xl mx-auto px-6">
 
-        <!-- Foxnut -->
-        <div class="card bg-base-100 shadow-xl">
-          <figure>
-            <img src="./foxnut.jpg" alt="Foxnut (Makhana)" class="h-56 w-full object-cover">
-          </figure>
-          <div class="card-body">
-            <h3 class="card-title ">Foxnut (Makhana)</h3>
-            <p>Premium quality foxnuts sourced directly from trusted farms.</p>
-            <p class="font-bold text-lg">₹1</p>
-            <div class="card-actions justify-end">
-              <a href="foxnut/" class="btn btn-outline btn-sm">
-                View Details
-              </a>
-            </div>
+    <h2 class="text-3xl font-bold text-center mb-10
+               text-slate-800 dark:text-slate-200">
+      Our Products
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Foxnut -->
+      <div class="card bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10
+                  shadow-xl transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+        <figure>
+          <img src="./foxnut.jpg" alt="Foxnut (Makhana)" class="h-56 w-full object-cover">
+        </figure>
+ hookup
+        <div class="card-body">
+          <h3 class="card-title text-slate-800 dark:text-slate-200">Foxnut (Makhana)</h3>
+          <p class="text-slate-700 dark:text-slate-300">
+            Premium quality foxnuts sourced directly from trusted farms.
+          </p>
+          <p class="font-bold text-lg text-green-700 dark:text-green-400">₹1</p>
+          <div class="card-actions justify-end">
+            <a href="foxnut/" class="btn btn-outline btn-sm hover:scale-105 transition">
+              View Details
+            </a>
           </div>
         </div>
-
-        <!-- Flaxseed -->
-        <div class="card bg-base-100 shadow-xl">
-          <figure>
-            <img src="./Flaxseed.jpg" alt="Flaxseed" class="h-56 w-full object-cover">
-          </figure>
-          <div class="card-body">
-            <h3 class="card-title">Flaxseed</h3>
-            <p>High nutrition flax seeds for food and industrial use.</p>
-            <p class="font-bold text-lg">₹1</p>
-            <div class="card-actions justify-end">
-              <a href="flaxseed/" class="btn btn-outline btn-sm">
-                View Details
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Mushrooms -->
-        <div class="card bg-base-100 shadow-xl">
-          <figure>
-            <img src="./Mushrooms.jpg" alt="Mushrooms" class="h-56 w-full object-cover">
-          </figure>
-          <div class="card-body">
-            <h3 class="card-title">Mushrooms</h3>
-            <p>Fresh and dried mushrooms for wholesale distribution.</p>
-            <p class="font-bold text-lg">₹1</p>
-            <div class="card-actions justify-end">
-              <a href="mushrooms/" class="btn btn-outline btn-sm">
-                View Details
-              </a>
-            </div>
-          </div>
-        </div>
-
       </div>
+
+      <!-- Flaxseed -->
+      <div class="card bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10
+                  shadow-xl transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+        <figure>
+          <img src="./Flaxseed.jpg" alt="Flaxseed" class="h-56 w-full object-cover">
+        </figure>
+        <div class="card-body">
+          <h3 class="card-title text-slate-800 dark:text-slate-200">Flaxseed</h3>
+          <p class="text-slate-700 dark:text-slate-300">
+            High nutrition flax seeds for food and industrial use.
+          </p>
+          <p class="font-bold text-lg text-amber-700 dark:text-amber-400">₹1</p>
+          <div class="card-actions justify-end">
+            <a href="flaxseed/" class="btn btn-outline btn-sm hover:scale-105 transition">
+              View Details
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mushrooms -->
+      <div class="card bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10
+                  shadow-xl transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+        <figure>
+          <img src="./Mushrooms.jpg" alt="Mushrooms" class="h-56 w-full object-cover">
+        </figure>
+        <div class="card-body">
+          <h3 class="card-title text-slate-800 dark:text-slate-200">Mushrooms</h3>
+          <p class="text-slate-700 dark:text-slate-300">
+            Fresh and dried mushrooms for wholesale distribution.
+          </p>
+          <p class="font-bold text-lg text-green-700 dark:text-green-400">₹1</p>
+          <div class="card-actions justify-end">
+            <a href="mushrooms/" class="btn btn-outline btn-sm hover:scale-105 transition">
+              View Details
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 <!-- FAQ -->
-<section class="py-20 bg-base-200">
+<section class="py-20 relative overflow-hidden">
+
+  <!-- India palette background continuation -->
+  <div class="absolute inset-0 -z-10
+      bg-[linear-gradient(120deg,#ff9933,#ffffff,#138808,#ff9933)]
+      dark:bg-[linear-gradient(120deg,#2a1405,#0b0f0c,#061a0a,#2a1405)]
+      bg-[length:400%_400%] animate-gradient-xy opacity-40 dark:opacity-60">
+  </div>
+
   <div class="max-w-6xl mx-auto px-6">
 
-    <h2 class="text-3xl font-bold text-center mb-10">
+    <h2 class="text-3xl font-bold text-center mb-10
+               text-slate-800 dark:text-slate-200">
       Frequently Asked Questions
     </h2>
 
     <div class="space-y-4">
 
-      <div class="collapse collapse-plus bg-base-100 shadow">
+      <div class="collapse collapse-plus bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10 shadow">
         <input type="radio" name="home-faq" checked />
-        <div class="collapse-title text-lg font-medium">
+        <div class="collapse-title text-lg font-medium text-slate-800 dark:text-slate-200">
           What products does RootsRise Crops supply?
         </div>
-        <div class="collapse-content">
+        <div class="collapse-content text-slate-700 dark:text-slate-300">
           <p>
             Rootrise Crops delivers clean, high-quality superfoods — mushrooms, flax seeds, and makhana — powered by smart sourcing, strict quality control, and a modern food-first mindset.
           </p>
         </div>
       </div>
 
-      <div class="collapse collapse-plus bg-base-100 shadow">
+      <div class="collapse collapse-plus bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10 shadow">
         <input type="radio" name="home-faq" />
-        <div class="collapse-title text-lg font-medium">
+        <div class="collapse-title text-lg font-medium text-slate-800 dark:text-slate-200">
           Do you sell retail or only bulk?
         </div>
-        <div class="collapse-content">
+        <div class="collapse-content text-slate-700 dark:text-slate-300">
           <p>
             Rootrise Crops primarily supplies mushrooms, flax seeds, and makhana in bulk quantities for wholesalers, retailers, manufacturers, and institutional buyers, ensuring consistent quality and reliable supply.
           </p>
         </div>
       </div>
 
-      <div class="collapse collapse-plus bg-base-100 shadow">
+      <div class="collapse collapse-plus bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10 shadow">
         <input type="radio" name="home-faq" />
-        <div class="collapse-title text-lg font-medium">
+        <div class="collapse-title text-lg font-medium text-slate-800 dark:text-slate-200">
           How can I place an order?
         </div>
-        <div class="collapse-content leading-relaxed">
 
-  <p class="mb-3">
-    Interested in our mushrooms, flax seeds, or makhana?
-    Reach out to us through any of the options below:
-  </p>
+        <div class="collapse-content leading-relaxed text-slate-700 dark:text-slate-300">
 
-  <ul class="list-disc pl-10 space-y-4">
-    <li>
-      <span class="font-semibold">📱 WhatsApp Us</span><br>
-      Send us your product requirement and quantity on WhatsApp for a quick response.
-    </li>
+          <p class="mb-3">
+            Interested in our mushrooms, flax seeds, or makhana?
+            Reach out to us through any of the options below:
+          </p>
 
-    <li>
-      <span class="font-semibold">📞 Call Us</span><br>
-      Speak directly with our team for pricing, bulk orders, and product details.
-    </li>
+          <ul class="list-disc pl-10 space-y-4">
+            <li>
+              <span class="font-semibold text-orange-600 dark:text-orange-300">📱 WhatsApp Us</span><br>
+              Send us your product requirement and quantity on WhatsApp for a quick response.
+            </li>
 
-    <li>
-      <span class="font-semibold">✉️ Email Us</span><br>
-      Email us your enquiry, and we’ll get back to you with complete order information.
-    </li>
-  </ul>
+            <li>
+              <span class="font-semibold text-slate-800 dark:text-white">📞 Call Us</span><br>
+              Speak directly with our team for pricing, bulk orders, and product details.
+            </li>
 
-</div>
+            <li>
+              <span class="font-semibold text-green-700 dark:text-green-400">✉️ Email Us</span><br>
+              Email us your enquiry, and we’ll get back to you with complete order information.
+            </li>
+          </ul>
 
+        </div>
       </div>
 
-      <div class="collapse collapse-plus bg-base-100 shadow">
+      <div class="collapse collapse-plus bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10 shadow">
         <input type="radio" name="home-faq" />
-        <div class="collapse-title text-lg font-medium">
+        <div class="collapse-title text-lg font-medium text-slate-800 dark:text-slate-200">
           Do you provide export services?
         </div>
-        <div class="collapse-content">
+        <div class="collapse-content text-slate-700 dark:text-slate-300">
           <p>
             Rootrise Crops partners with distributors, wholesalers, and international buyers, supplying high-quality mushrooms, flax seeds, and makhana for bulk export. We ensure consistent quality, compliant packaging, and reliable logistics to meet the demands of global markets.
           </p>
         </div>
       </div>
 
-      <div class="collapse collapse-plus bg-base-100 shadow">
+      <div class="collapse collapse-plus bg-white/70 dark:bg-white/5 backdrop-blur-md
+                  border border-white/40 dark:border-white/10 shadow">
         <input type="radio" name="home-faq" />
-        <div class="collapse-title text-lg font-medium">
+        <div class="collapse-title text-lg font-medium text-slate-800 dark:text-slate-200">
           Where is your company located?
         </div>
-        <div class="collapse-content">
+        <div class="collapse-content text-slate-700 dark:text-slate-300">
           <p>
             Rootrise Crops is headquartered in [City, State, Country], serving clients across India and international markets.
           </p>
